@@ -1,5 +1,3 @@
-import matplotlib as mpl
-mpl.use('TKAgg')
 import matplotlib.pyplot as plt
 #import tensorflow as tf
 import tensorflow.compat.v1 as tf

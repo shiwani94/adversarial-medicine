@@ -34,7 +34,7 @@ def printResults(model_preds, y_test):
           '({0:.6f}'.format(conf[1]) + ' - {0:.6f})'.format(conf[2]))
 
 def deprocess_inception(y):
-    x = copy(y).astype(np.float)
+    x = copy.copy(y).astype(np.float)
     x += 1.
     x /= 2.
     #x *= 255.

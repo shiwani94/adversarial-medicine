@@ -14,6 +14,7 @@ from keras import applications
 from keras import backend as K
 from keras.preprocessing import image
 from tensorflow.keras.utils import to_categorical
+import copy 
 
 def mean_ci(x):
     mn = np.mean(x)

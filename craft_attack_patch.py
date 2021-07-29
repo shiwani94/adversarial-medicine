@@ -571,7 +571,7 @@ def attack(model, patch, target_label, n_show=5, scale=0.5, show_indices=None,
     if show_indices:
         for ind in show_indices:
             # Find the index of show_index in indices
-            print(ind,indices)
+            #print(ind,indices)
             i = np.where(indices == ind)[0][0]
             show_patched_image(patched_imgs[i], probs_patched_images[i],
                                probs_original_images[i], true_labels[i], indices[i])

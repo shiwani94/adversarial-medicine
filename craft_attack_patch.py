@@ -1,3 +1,6 @@
+import scipy.stats as st
+from sklearn import metrics
+from sklearn.metrics import auc
 import matplotlib.pyplot as plt
 #import tensorflow as tf
 import tensorflow.compat.v1 as tf
